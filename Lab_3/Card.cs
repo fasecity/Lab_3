@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Lab_3
 {
-    class Card
+  public  class Card
     {
         // ++++++++++++++++++++++++++++++++PUBLIC PROPERTIES ++++++++++++++++++++++++++++
-        //These are the enums that come from the Faces and Suits enum Class.
+        
+       //These are the enums that come from the Faces and Suits enum Class.
         public Faces FaceFromEnum { get; set; }
         public Suits SuitFromEnum { get; set; }
 
